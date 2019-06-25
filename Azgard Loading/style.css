@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #333;
+}
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.bar{
+	width: 6px;
+	height: 120px;
+	background: #333;
+	display: inline-block;
+	transform-origin: bottom center;
+}
+.bar1{
+	animation: loading1 3s ease-in-out infinite;
+	animation-delay: 0.1s;
+}
+.bar2{
+	animation: loading2 3s ease-in-out infinite;
+	animation-delay: 0.2s;
+}
+.bar3{
+	animation: loading3 3s ease-in-out infinite;
+	animation-delay: 0.3s;
+}
+.bar4{
+	animation: loading4 3s ease-in-out infinite;
+	animation-delay: 0.4s;
+}
+.bar5{
+	animation: loading5 3s ease-in-out infinite;
+	animation-delay: 0.3s;
+}
+.bar6{
+	animation: loading6 3s ease-in-out infinite;
+	animation-delay: 0.2s;
+}
+.bar7{
+	animation: loading7 3s ease-in-out infinite;
+	animation-delay: 0.1s;
+}
+@keyframes loading1 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #EA2027
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
+
+@keyframes loading2 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #F79F1F
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
+@keyframes loading3 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #FFC312
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
+@keyframes loading4 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #009432
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
+@keyframes loading5 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #12CBC4
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
+@keyframes loading6 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #0652DD
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
+@keyframes loading7 {
+	0%{
+		transform: scaleY(0.1);
+		background: #333;
+	}
+	50%{
+		transform: scaleY(1);
+		background: #8e44ad
+	}
+	100%{
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}
