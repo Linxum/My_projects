@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<script>
+
+var func = parseInt(prompt("Выбери функцию: 1 - кредит, 2 - вклад;"))
+
+if (func == 1) {
+	var summ = parseInt(prompt("Сумма:"))
+	var cent = parseFloat(prompt("Кредитная ставка:"))
+	var spok = parseInt(prompt("Срок (месяцы):"))
+
+	summ = summ + summ*(cent/100)
+	var month = summ/spok
+	alert("Ежемесячный платеж: " + month)
+} else if (func == 2) {
+	var summ = parseInt(prompt("Сумма:"))
+	var cent = parseFloat(prompt("Процентная ставка:"))
+	var spok = parseFloat(prompt("Срок (год):"))
+
+	for (i=1; i<=spok;i++) {
+		summ = summ + summ*(cent/100)
+		alert(i + " год, сумма - " + summ)
+	}
+} else {
+	alert("Неправильная функция!!! =(")
+}
+
+</script>
